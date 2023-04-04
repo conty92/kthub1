@@ -1,0 +1,443 @@
+@media  (max-width:512px)  {
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }body{
+        width: 100%;
+        background-color: rgb(219, 226, 235);
+    }
+    .main{
+        width: 100%;
+    
+    }
+    header{
+        width: 100%;
+        height: 70px;
+        display: flex;
+        /* flex-direction:column; */
+        justify-content: space-between;
+        padding: 0 1rem 0 1rem;
+    
+
+    }
+    header > .init{
+        display: flex;
+        justify-content: space-between;
+        /* margin-bottom: rem; */
+        padding: 0;
+    
+    }
+    header > .init > .logo{
+        width:60px ;
+        height: 60px;
+        border-radius: 100%;
+        background-color:mediumpurple;
+        font-style:oblique;
+    
+        
+    }
+    header > .init > .ktech{
+        font-size: 1.2rem;
+    
+    }
+    header > .link {
+
+        display: none;
+        margin-top: 2rem;
+        width: 100%;
+    } 
+    .first{
+        width: 100%;
+        height: 400px;
+        display: block;
+    }
+    .first > .program {
+        width: 100%;
+        height: 100%;
+    
+    }
+    .first > .services {
+        width: 100%;
+        height: 100%;
+        background-color:mediumpurple;
+        margin-top: 6rem;
+    }
+    .first > .program {
+        padding: 30px;
+    }
+    .first > .program > h1 {
+        font-size: 2rem;  
+    }
+    
+
+    
+    
+    
+    .get-quote {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+    }
+    .get-quote > label {
+        font-size: 1.5rem;
+    }
+    .second{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 25rem;   
+    }
+    .second > .small {
+        width: 100%;
+        height: 100%;
+        display:flex;
+        flex-direction: column; 
+    }
+    .second > .small > .meddle {
+        width: 100%;
+       display: flex;
+       padding: 30px;
+    }
+    .second > .small > .meddle > .left > p {
+      line-height: 1.5rem; 
+      font-size: 1.5rem; 
+    }
+    .meddle > .left > .learn{
+        width: 150px;
+        height: 30px;
+        border: 2px solid black;
+        padding: 5px;
+        text-align: center;
+    
+    } 
+    .second > .small > .below{
+        width: 100%;
+        display: flex;
+    
+    }
+    .second > .small > .below > .years{
+        width: 50%;
+    background-color: mediumpurple;
+    text-align: center;
+    padding: 20px;
+    }
+    .second > .small > .below > .complete{
+        width: 50%;
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+    .three {
+        width: 100%;
+        height: 800px;
+        margin-top: 8rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .three > .test{
+        height: 20%;
+        padding: 30px;
+    }
+    .three > .latest{
+        display: flex;
+        flex-direction: column;
+    }
+    .three > .latest > .title{
+       display: grid;
+    }
+    .three > .latest > .title > .image{
+        width: 220px;
+        height: 150px;
+        background-image: url(./media/img/li-zhang-rf4gmr3L0eU-unsplash.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    
+    .three > .latest > .title > .noted{
+        width: 220px;
+        height: 260px;
+        border: 1px solid black;
+        padding:40px;
+        
+
+        
+    }
+    .three > .latest > .title > .noted > .daya{
+        margin-top: 30px;
+        line-height: 1.5rem;
+        font-size: 1rem;
+    }
+    .three > .all{
+        width: 160px;
+        height: 30px;
+        border: 2px solid black;
+        text-align: center;
+        padding: 5px;
+        margin-top: 10px;
+        margin-inline: auto;
+    }
+    .four{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50rem;
+    }
+    .four > .been{
+        width: 100%;
+        height: 100%;
+        padding: 50px;
+        background-color: black;
+    }
+    .four > .been h2{
+        font-size: 2rem;
+        color: white;
+    }
+    .four > .been > hr{
+        width: 60px;
+        height: 10px;
+        background-color: darkgoldenrod;
+        margin-top: 10px; 
+    }
+    .four > .been > .foor{
+        margin-top: 50px;
+        color: white;
+        line-height: 1.5rem;
+    }
+    .four > .been > .over{
+        width: 150px;
+        height: 30px;
+        border: 2px solid mediumpurple;
+        text-align: center;
+        padding: 5px;
+        margin-top: 30px;
+        color: white;
+    }
+    .four .vedio {
+        width: 100%;
+        display: grid;
+        grid-template-rows: 85% 15%;
+        
+    }
+    .four > .vedio > .clip > video{
+       width: 100%;
+       /* height: 100%;  */
+    }
+    .vedio > .estimate{
+    width: 100%;
+    }
+     .vedio > .estimate > .call{
+        width: 50%;
+        height: 100px;
+        font-size: 1.1rem;
+    }
+     .vedio > .estimate > .online{
+        width: 50%;
+        height: 100px;
+    
+    }
+    .vedio > .estimate > .online > label{
+        font-size: 1rem;
+    }
+    .build {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        /* margin-inline: auto; */
+        margin-top: 15rem;
+    
+    }
+    .build > .something{
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+    }
+    .build > .together{
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-rows: 32% 1% 16% 1% 16% 1% 16% 1% 16%;
+    }
+     .something > .lets {
+        padding: 20px;
+    
+     }
+     .lets h2 {
+        font-size: 2rem;
+        margin-top: 10px;
+     }
+     .lets hr{
+        width: 50px;
+        height: 5px;
+        background-color: darkgoldenrod;
+        margin-top: 10px;
+     }
+     .lets > .thing {
+        line-height: 1.5rem;
+        margin-top: 10px;
+        font-size: 1.5rem;
+     }
+     .lets > .touch{
+        width: 150px;
+        height: 30px;
+        border: 2px solid mediumpurple;
+        color: mediumpurple;
+        text-align: center;
+        padding: 5px;
+        margin-top: 30px;
+     }
+     .together > .mono > .deca{
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+        margin-bottom: 0px;
+    
+     }
+     .fa-plus-circle {
+        color: mediumpurple
+     }
+     .together > .mono > p{
+        font-size: 1.2rem;
+        margin-left: 30px;
+     
+     }
+     .together > .mono > .deca > h3{
+        margin-top: 40px;
+     }
+     .together > .tetra {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;   
+     }
+     .client{
+        width: 100%;
+        height: 600px;
+        margin-top: 25rem;
+     }
+     .client > h1{
+        text-align: center;
+     }
+     .client> hr{
+        width: 60px;
+        height: 10px;
+        /* margin-left: 50%; */
+        text-align: center;
+        background-color: mediumpurple; 
+     }
+     .client > .testimonials{
+        width: 100%;
+        height: 100%;
+        /* margin-inline: auto; */
+        display: grid;
+        /* flex-direction: column; */
+        margin-top: 3rem;
+     }
+     .smith{
+        width: 100%;
+        height: 350px;
+        background-color: white;
+        font-size: 1.5rem;
+        padding: 2rem;
+        margin-top: 30px;
+        align-items: center;
+     }
+     .star > .fa-star{
+        color: mediumpurple;
+    
+     }
+     .smith > p{
+        margin-top: 20px;
+     }
+     .smith > h3{
+        margin-top: 40px;
+     }
+     .awesome{
+        display: none;
+     }
+    
+     .end {
+        width: 100%;
+        /* height: 500px; */
+        display: flex;
+        flex-direction: column;
+        margin-top: 49rem;
+    
+    
+     }
+     .contact{
+        width: 100%;
+        height: 600px;
+        
+     }
+     .twitter {
+        width: 100%;
+        height: 600px;
+
+     }
+     
+     .form{
+        display: flex;
+        flex-direction: column;
+     }
+     .form > input{
+        width: 250px;
+        height: 50px;
+        margin-top: 40px;
+        font-size: 1.1rem;
+    
+     }
+     .message > input {
+        width: 250px;
+        height: 100px;
+        margin-top: 40px;
+        font-size: 1.1rem;
+     }
+     .end > .contact > .send {
+        width: 100px;
+        height: 30px;
+        border: 2px solid white;
+        margin-left: 50%;
+        margin-top: 2rem;
+        color: white;
+        padding: 2px;
+     }
+     .black {
+        width: 100%;
+        height: 25%;
+        background-color: black;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 35px;
+     }
+     .twitter > .black > .fab{
+        color: white;
+     }
+     .map{
+        width: 100%;
+        display: flex;
+        gap: 1rem;
+        padding: 2rem; 
+        font-size: 1.5rem;
+     }
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
